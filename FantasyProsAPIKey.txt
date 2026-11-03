@@ -1,0 +1,24 @@
+Q3kKZsVBtCwtruX9kfe743sY683WKJJ4GMkQ9Tv2
+
+Capthcha key: EuzH6w1XvluUhM
+
+Rules:
+{
+  "rules": {
+    "rooms":    { "$room": { ".read": true, ".write": true } },
+    "boards":   { ".read": true, ".write": true },
+    "fp":       { "$room": { ".read": true, ".write": true } },
+    "favs":     { "$room": { "$who": { ".read": true, ".write": true } } },
+    "devices":  { "$room": { ".read": true, ".write": true } },
+    "selftest": { "$room": { ".read": true, ".write": true } },
+    "$other":   { ".read": false, ".write": false }
+  }
+}
+
+{
+  "rules": {
+    ".read": true,  
+    ".write": true,  
+  }
+}
+
